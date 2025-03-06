@@ -10,9 +10,11 @@ class _24hAnalogView extends WatchUi.WatchFace {
     private var _radiusHour;
     private var _radiusMinute;
     private var _radiusSecond;
+    private var _inSleepMode;
     
     function initialize() {
         WatchFace.initialize();
+        _inSleepMode = false;
     }
 
     // Load your resources here
@@ -99,16 +101,11 @@ class _24hAnalogView extends WatchUi.WatchFace {
         // Minute angle: each minute is 6° (360 / 60)
         var minuteAngle = minute * 6 * Math.PI / 180;
         
-        // Second angle: each second is 6° (360 / 60)
-        var secondAngle = second * 6 * Math.PI / 180;
-        
         // Calculate endpoints of the hands
         var hourHandX = _centerX + _radiusHour * Math.sin(hourAngle);
         var hourHandY = _centerY - _radiusHour * Math.cos(hourAngle);
         var minuteHandX = _centerX + _radiusMinute * Math.sin(minuteAngle);
         var minuteHandY = _centerY - _radiusMinute * Math.cos(minuteAngle);
-        var secondHandX = _centerX + _radiusSecond * Math.sin(secondAngle);
-        var secondHandY = _centerY - _radiusSecond * Math.cos(secondAngle);
         
         // Draw the hour hand (thicker)
         dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
@@ -120,10 +117,17 @@ class _24hAnalogView extends WatchUi.WatchFace {
         dc.setPenWidth(3);
         dc.drawLine(_centerX, _centerY, minuteHandX, minuteHandY);
         
-        // Draw the second hand (thinnest)
-        dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
-        dc.setPenWidth(2);
-        dc.drawLine(_centerX, _centerY, secondHandX, secondHandY);
+        // Draw the second hand only if not in sleep mode
+        if (!_inSleepMode) {
+            // Second angle: each second is 6° (360 / 60)
+            var secondAngle = second * 6 * Math.PI / 180;
+            var secondHandX = _centerX + _radiusSecond * Math.sin(secondAngle);
+            var secondHandY = _centerY - _radiusSecond * Math.cos(secondAngle);
+            
+            dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
+            dc.setPenWidth(2);
+            dc.drawLine(_centerX, _centerY, secondHandX, secondHandY);
+        }
         
         // Draw center circle
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
@@ -136,9 +140,13 @@ class _24hAnalogView extends WatchUi.WatchFace {
 
     // The user has just looked at their watch
     function onExitSleep() as Void {
+        _inSleepMode = false;
+        WatchUi.requestUpdate();
     }
 
     // Terminate any active timers and prepare for slow updates
     function onEnterSleep() as Void {
+        _inSleepMode = true;
+        WatchUi.requestUpdate();
     }
 }
