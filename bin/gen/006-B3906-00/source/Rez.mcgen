@@ -18,7 +18,18 @@ module Rez {
     } // Layouts
 
     module Strings {
+        (:initialized) var ColorRed as ResourceId;
+        (:initialized) var ColorBlue as ResourceId;
+        (:initialized) var ColorDarkRed as ResourceId;
+        (:initialized) var MinuteHandColorTitle as ResourceId;
+        (:initialized) var HourHandColorTitle as ResourceId;
+        (:initialized) var ColorPurple as ResourceId;
+        (:initialized) var ColorPink as ResourceId;
+        (:initialized) var ColorWhite as ResourceId;
+        (:initialized) var ColorYellow as ResourceId;
+        (:initialized) var ColorGreen as ResourceId;
         (:initialized) var AppName as ResourceId;
+        (:initialized) var SecondHandColorTitle as ResourceId;
     } // Strings
 
     module Styles {

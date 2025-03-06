@@ -3,6 +3,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Math;
+import Toybox.Application;
 
 class _24hAnalogView extends WatchUi.WatchFace {
     private var _centerX;
@@ -11,10 +12,26 @@ class _24hAnalogView extends WatchUi.WatchFace {
     private var _radiusMinute;
     private var _radiusSecond;
     private var _inSleepMode;
+    private var _hourHandColor;
+    private var _minuteHandColor;
+    private var _secondHandColor;
     
     function initialize() {
         WatchFace.initialize();
         _inSleepMode = false;
+        loadSettings();
+    }
+
+    // Load settings from app storage
+    function loadSettings() {
+        _hourHandColor = Application.Properties.getValue("hourHandColor") as Number;
+        _minuteHandColor = Application.Properties.getValue("minuteHandColor") as Number;
+        _secondHandColor = Application.Properties.getValue("secondHandColor") as Number;
+        
+        // Set defaults if settings are not available
+        if (_hourHandColor == null) { _hourHandColor = Graphics.COLOR_RED; }
+        if (_minuteHandColor == null) { _minuteHandColor = Graphics.COLOR_WHITE; }
+        if (_secondHandColor == null) { _secondHandColor = Graphics.COLOR_YELLOW; }
     }
 
     // Load your resources here
@@ -32,6 +49,7 @@ class _24hAnalogView extends WatchUi.WatchFace {
 
     // Called when this View is brought to the foreground
     function onShow() as Void {
+        loadSettings();
     }
 
     // Update the view
@@ -108,12 +126,12 @@ class _24hAnalogView extends WatchUi.WatchFace {
         var minuteHandY = _centerY - _radiusMinute * Math.cos(minuteAngle);
         
         // Draw the hour hand (thicker)
-        dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(_hourHandColor, Graphics.COLOR_TRANSPARENT);
         dc.setPenWidth(6);
         dc.drawLine(_centerX, _centerY, hourHandX, hourHandY);
         
         // Draw the minute hand (thinner)
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(_minuteHandColor, Graphics.COLOR_TRANSPARENT);
         dc.setPenWidth(3);
         dc.drawLine(_centerX, _centerY, minuteHandX, minuteHandY);
         
@@ -124,7 +142,7 @@ class _24hAnalogView extends WatchUi.WatchFace {
             var secondHandX = _centerX + _radiusSecond * Math.sin(secondAngle);
             var secondHandY = _centerY - _radiusSecond * Math.cos(secondAngle);
             
-            dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
+            dc.setColor(_secondHandColor, Graphics.COLOR_TRANSPARENT);
             dc.setPenWidth(2);
             dc.drawLine(_centerX, _centerY, secondHandX, secondHandY);
         }

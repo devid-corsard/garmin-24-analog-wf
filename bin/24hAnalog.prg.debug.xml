@@ -2,101 +2,174 @@
 <debugInfo>
     <manifest filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/manifest.xml"/>
     <pcToLineNum>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/bin/gen/006-B3906-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="3" lineNum="5" parent="globals/_24hAnalogApp" pc="268435501" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="4" lineNum="7" parent="globals/_24hAnalogView" pc="268435513" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="5" lineNum="12" parent="globals/_24hAnalogApp" pc="268435525" symbol="onStart"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="6" lineNum="20" parent="globals/_24hAnalogApp" pc="268435528" symbol="getInitialView"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="6" lineNum="21" parent="globals/_24hAnalogApp" pc="268435530" symbol="getInitialView"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="7" lineNum="7" parent="globals/_24hAnalogApp" pc="268435560" symbol="initialize"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="7" lineNum="8" parent="globals/_24hAnalogApp" pc="268435562" symbol="initialize"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="8" lineNum="16" parent="globals/_24hAnalogApp" pc="268435575" symbol="onStop"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="9" lineNum="142" parent="globals/_24hAnalogView" pc="268435578" symbol="onExitSleep"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="9" lineNum="143" parent="globals/_24hAnalogView" pc="268435580" symbol="onExitSleep"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="9" lineNum="144" parent="globals/_24hAnalogView" pc="268435588" symbol="onExitSleep"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="11" lineNum="21" parent="globals/_24hAnalogView" pc="268435600" symbol="onLayout"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="11" lineNum="23" parent="globals/_24hAnalogView" pc="268435602" symbol="onLayout"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="11" lineNum="24" parent="globals/_24hAnalogView" pc="268435619" symbol="onLayout"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="11" lineNum="28" parent="globals/_24hAnalogView" pc="268435636" symbol="onLayout"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="11" lineNum="29" parent="globals/_24hAnalogView" pc="268435662" symbol="onLayout"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="11" lineNum="30" parent="globals/_24hAnalogView" pc="268435688" symbol="onLayout"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="57" parent="globals/_24hAnalogView" pc="268435715" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="59" parent="globals/_24hAnalogView" pc="268435718" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="66" parent="globals/_24hAnalogView" pc="268435735" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="67" parent="globals/_24hAnalogView" pc="268435747" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="68" parent="globals/_24hAnalogView" pc="268435757" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="70" parent="globals/_24hAnalogView" pc="268435764" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="73" parent="globals/_24hAnalogView" pc="268435775" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="76" parent="globals/_24hAnalogView" pc="268435792" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="77" parent="globals/_24hAnalogView" pc="268435817" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="78" parent="globals/_24hAnalogView" pc="268435842" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="79" parent="globals/_24hAnalogView" pc="268435867" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="82" parent="globals/_24hAnalogView" pc="268435892" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="85" parent="globals/_24hAnalogView" pc="268435910" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="86" parent="globals/_24hAnalogView" pc="268435927" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="87" parent="globals/_24hAnalogView" pc="268435934" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="88" parent="globals/_24hAnalogView" pc="268435959" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="12" lineNum="90" parent="globals/_24hAnalogView" pc="268435984" symbol="drawWatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="95" parent="globals/_24hAnalogView" pc="268436019" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="99" parent="globals/_24hAnalogView" pc="268436022" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="102" parent="globals/_24hAnalogView" pc="268436048" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="105" parent="globals/_24hAnalogView" pc="268436065" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="106" parent="globals/_24hAnalogView" pc="268436093" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="107" parent="globals/_24hAnalogView" pc="268436121" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="108" parent="globals/_24hAnalogView" pc="268436149" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="111" parent="globals/_24hAnalogView" pc="268436177" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="112" parent="globals/_24hAnalogView" pc="268436194" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="113" parent="globals/_24hAnalogView" pc="268436206" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="116" parent="globals/_24hAnalogView" pc="268436230" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="117" parent="globals/_24hAnalogView" pc="268436247" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="118" parent="globals/_24hAnalogView" pc="268436259" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="121" parent="globals/_24hAnalogView" pc="268436283" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="123" parent="globals/_24hAnalogView" pc="268436292" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="124" parent="globals/_24hAnalogView" pc="268436309" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="125" parent="globals/_24hAnalogView" pc="268436337" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="127" parent="globals/_24hAnalogView" pc="268436365" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="128" parent="globals/_24hAnalogView" pc="268436382" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="129" parent="globals/_24hAnalogView" pc="268436394" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="133" parent="globals/_24hAnalogView" pc="268436421" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="13" lineNum="134" parent="globals/_24hAnalogView" pc="268436441" symbol="drawHands"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="14" lineNum="148" parent="globals/_24hAnalogView" pc="268436464" symbol="onEnterSleep"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="14" lineNum="149" parent="globals/_24hAnalogView" pc="268436466" symbol="onEnterSleep"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="14" lineNum="150" parent="globals/_24hAnalogView" pc="268436474" symbol="onEnterSleep"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="15" lineNum="15" parent="globals/_24hAnalogView" pc="268436486" symbol="initialize"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="15" lineNum="16" parent="globals/_24hAnalogView" pc="268436488" symbol="initialize"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="15" lineNum="17" parent="globals/_24hAnalogView" pc="268436500" symbol="initialize"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="17" lineNum="38" parent="globals/_24hAnalogView" pc="268436509" symbol="onUpdate"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="17" lineNum="40" parent="globals/_24hAnalogView" pc="268436512" symbol="onUpdate"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="17" lineNum="41" parent="globals/_24hAnalogView" pc="268436524" symbol="onUpdate"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="17" lineNum="44" parent="globals/_24hAnalogView" pc="268436532" symbol="onUpdate"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="17" lineNum="47" parent="globals/_24hAnalogView" pc="268436543" symbol="onUpdate"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="17" lineNum="48" parent="globals/_24hAnalogView" pc="268436555" symbol="onUpdate"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="17" lineNum="49" parent="globals/_24hAnalogView" pc="268436563" symbol="onUpdate"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="17" lineNum="50" parent="globals/_24hAnalogView" pc="268436571" symbol="onUpdate"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="17" lineNum="53" parent="globals/_24hAnalogView" pc="268436579" symbol="onUpdate"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/bin/gen/006-B3906-00/source/Rez.mcgen" id="18" lineNum="13" parent="globals/Rez/Layouts" pc="268436597" symbol="WatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/bin/gen/006-B3906-00/source/Rez.mcgen" id="18" lineNum="14" parent="globals/Rez/Layouts" pc="268436608" symbol="WatchFace"/>
-        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/bin/gen/006-B3906-00/source/Rez.mcgen" id="18" lineNum="16" parent="globals/Rez/Layouts" pc="268436712" symbol="WatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="1" lineNum="46" parent="globals/ColorMenuDelegate" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="2" lineNum="16" parent="globals/SettingsMenuDelegate" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="3" lineNum="41" parent="globals" pc="268435484" symbol="getApp"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="3" lineNum="42" parent="globals" pc="268435494" symbol="getApp"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="4" lineNum="6" parent="globals/SettingsMenuView" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/bin/gen/006-B3906-00/source/Rez.mcgen" id="5" lineNum="7" parent="globals/Rez" pc="268435517" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="6" lineNum="6" parent="globals/_24hAnalogApp" pc="268435537" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="7" lineNum="8" parent="globals/_24hAnalogView" pc="268435549" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="8" lineNum="49" parent="globals/ColorMenuDelegate" pc="268435561" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="8" lineNum="50" parent="globals/ColorMenuDelegate" pc="268435563" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="8" lineNum="51" parent="globals/ColorMenuDelegate" pc="268435575" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="9" lineNum="54" parent="globals/ColorMenuDelegate" pc="268435585" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="9" lineNum="55" parent="globals/ColorMenuDelegate" pc="268435588" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="9" lineNum="57" parent="globals/ColorMenuDelegate" pc="268435597" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="9" lineNum="58" parent="globals/ColorMenuDelegate" pc="268435618" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="9" lineNum="59" parent="globals/ColorMenuDelegate" pc="268435641" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="9" lineNum="60" parent="globals/ColorMenuDelegate" pc="268435662" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="9" lineNum="61" parent="globals/ColorMenuDelegate" pc="268435685" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="9" lineNum="62" parent="globals/ColorMenuDelegate" pc="268435706" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="9" lineNum="65" parent="globals/ColorMenuDelegate" pc="268435729" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="9" lineNum="66" parent="globals/ColorMenuDelegate" pc="268435744" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="10" lineNum="30" parent="globals/SettingsMenuDelegate" pc="268435756" symbol="buildColorMenu"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="10" lineNum="31" parent="globals/SettingsMenuDelegate" pc="268435759" symbol="buildColorMenu"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="10" lineNum="33" parent="globals/SettingsMenuDelegate" pc="268435799" symbol="buildColorMenu"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="10" lineNum="34" parent="globals/SettingsMenuDelegate" pc="268435843" symbol="buildColorMenu"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="10" lineNum="35" parent="globals/SettingsMenuDelegate" pc="268435887" symbol="buildColorMenu"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="10" lineNum="36" parent="globals/SettingsMenuDelegate" pc="268435931" symbol="buildColorMenu"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="10" lineNum="37" parent="globals/SettingsMenuDelegate" pc="268435975" symbol="buildColorMenu"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="10" lineNum="38" parent="globals/SettingsMenuDelegate" pc="268436018" symbol="buildColorMenu"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="10" lineNum="39" parent="globals/SettingsMenuDelegate" pc="268436061" symbol="buildColorMenu"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="10" lineNum="40" parent="globals/SettingsMenuDelegate" pc="268436105" symbol="buildColorMenu"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="10" lineNum="42" parent="globals/SettingsMenuDelegate" pc="268436149" symbol="buildColorMenu"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="11" lineNum="17" parent="globals/SettingsMenuDelegate" pc="268436152" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="11" lineNum="18" parent="globals/SettingsMenuDelegate" pc="268436154" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="12" lineNum="21" parent="globals/SettingsMenuDelegate" pc="268436167" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="12" lineNum="22" parent="globals/SettingsMenuDelegate" pc="268436170" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="12" lineNum="24" parent="globals/SettingsMenuDelegate" pc="268436179" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="12" lineNum="25" parent="globals/SettingsMenuDelegate" pc="268436230" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="12" lineNum="26" parent="globals/SettingsMenuDelegate" pc="268436242" symbol="onSelect"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="13" lineNum="7" parent="globals/SettingsMenuView" pc="268436287" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="13" lineNum="8" parent="globals/SettingsMenuView" pc="268436289" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="13" lineNum="10" parent="globals/SettingsMenuView" pc="268436319" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="13" lineNum="11" parent="globals/SettingsMenuView" pc="268436362" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/SettingsMenu.mc" id="13" lineNum="12" parent="globals/SettingsMenuView" pc="268436405" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="14" lineNum="13" parent="globals/_24hAnalogApp" pc="268436449" symbol="onStart"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="14" lineNum="15" parent="globals/_24hAnalogApp" pc="268436451" symbol="onStart"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="14" lineNum="16" parent="globals/_24hAnalogApp" pc="268436472" symbol="onStart"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="14" lineNum="18" parent="globals/_24hAnalogApp" pc="268436498" symbol="onStart"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="14" lineNum="19" parent="globals/_24hAnalogApp" pc="268436519" symbol="onStart"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="14" lineNum="21" parent="globals/_24hAnalogApp" pc="268436545" symbol="onStart"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="14" lineNum="22" parent="globals/_24hAnalogApp" pc="268436566" symbol="onStart"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="15" lineNum="36" parent="globals/_24hAnalogApp" pc="268436593" symbol="getSettingsView"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="15" lineNum="37" parent="globals/_24hAnalogApp" pc="268436595" symbol="getSettingsView"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="16" lineNum="31" parent="globals/_24hAnalogApp" pc="268436650" symbol="getInitialView"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="16" lineNum="32" parent="globals/_24hAnalogApp" pc="268436652" symbol="getInitialView"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="17" lineNum="8" parent="globals/_24hAnalogApp" pc="268436682" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="17" lineNum="9" parent="globals/_24hAnalogApp" pc="268436684" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogApp.mc" id="18" lineNum="27" parent="globals/_24hAnalogApp" pc="268436697" symbol="onStop"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="19" lineNum="160" parent="globals/_24hAnalogView" pc="268436700" symbol="onExitSleep"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="19" lineNum="161" parent="globals/_24hAnalogView" pc="268436702" symbol="onExitSleep"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="19" lineNum="162" parent="globals/_24hAnalogView" pc="268436710" symbol="onExitSleep"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="20" lineNum="51" parent="globals/_24hAnalogView" pc="268436722" symbol="onShow"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="20" lineNum="52" parent="globals/_24hAnalogView" pc="268436724" symbol="onShow"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="21" lineNum="38" parent="globals/_24hAnalogView" pc="268436732" symbol="onLayout"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="21" lineNum="40" parent="globals/_24hAnalogView" pc="268436734" symbol="onLayout"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="21" lineNum="41" parent="globals/_24hAnalogView" pc="268436751" symbol="onLayout"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="21" lineNum="45" parent="globals/_24hAnalogView" pc="268436768" symbol="onLayout"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="21" lineNum="46" parent="globals/_24hAnalogView" pc="268436794" symbol="onLayout"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="21" lineNum="47" parent="globals/_24hAnalogView" pc="268436820" symbol="onLayout"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="22" lineNum="26" parent="globals/_24hAnalogView" pc="268436847" symbol="loadSettings"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="22" lineNum="27" parent="globals/_24hAnalogView" pc="268436849" symbol="loadSettings"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="22" lineNum="28" parent="globals/_24hAnalogView" pc="268436873" symbol="loadSettings"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="22" lineNum="29" parent="globals/_24hAnalogView" pc="268436897" symbol="loadSettings"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="22" lineNum="32" parent="globals/_24hAnalogView" pc="268436921" symbol="loadSettings"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="22" lineNum="32" parent="globals/_24hAnalogView" pc="268436930" symbol="loadSettings"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="22" lineNum="33" parent="globals/_24hAnalogView" pc="268436945" symbol="loadSettings"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="22" lineNum="33" parent="globals/_24hAnalogView" pc="268436954" symbol="loadSettings"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="22" lineNum="34" parent="globals/_24hAnalogView" pc="268436969" symbol="loadSettings"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="22" lineNum="34" parent="globals/_24hAnalogView" pc="268436978" symbol="loadSettings"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="75" parent="globals/_24hAnalogView" pc="268436994" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="77" parent="globals/_24hAnalogView" pc="268436997" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="84" parent="globals/_24hAnalogView" pc="268437014" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="85" parent="globals/_24hAnalogView" pc="268437026" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="86" parent="globals/_24hAnalogView" pc="268437036" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="88" parent="globals/_24hAnalogView" pc="268437043" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="91" parent="globals/_24hAnalogView" pc="268437054" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="94" parent="globals/_24hAnalogView" pc="268437071" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="95" parent="globals/_24hAnalogView" pc="268437096" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="96" parent="globals/_24hAnalogView" pc="268437121" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="97" parent="globals/_24hAnalogView" pc="268437146" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="100" parent="globals/_24hAnalogView" pc="268437171" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="103" parent="globals/_24hAnalogView" pc="268437189" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="104" parent="globals/_24hAnalogView" pc="268437206" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="105" parent="globals/_24hAnalogView" pc="268437213" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="106" parent="globals/_24hAnalogView" pc="268437238" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="23" lineNum="108" parent="globals/_24hAnalogView" pc="268437263" symbol="drawWatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="113" parent="globals/_24hAnalogView" pc="268437298" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="117" parent="globals/_24hAnalogView" pc="268437301" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="120" parent="globals/_24hAnalogView" pc="268437327" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="123" parent="globals/_24hAnalogView" pc="268437344" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="124" parent="globals/_24hAnalogView" pc="268437372" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="125" parent="globals/_24hAnalogView" pc="268437400" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="126" parent="globals/_24hAnalogView" pc="268437428" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="129" parent="globals/_24hAnalogView" pc="268437456" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="130" parent="globals/_24hAnalogView" pc="268437473" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="131" parent="globals/_24hAnalogView" pc="268437485" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="134" parent="globals/_24hAnalogView" pc="268437509" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="135" parent="globals/_24hAnalogView" pc="268437526" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="136" parent="globals/_24hAnalogView" pc="268437538" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="139" parent="globals/_24hAnalogView" pc="268437562" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="141" parent="globals/_24hAnalogView" pc="268437571" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="142" parent="globals/_24hAnalogView" pc="268437588" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="143" parent="globals/_24hAnalogView" pc="268437616" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="145" parent="globals/_24hAnalogView" pc="268437644" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="146" parent="globals/_24hAnalogView" pc="268437661" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="147" parent="globals/_24hAnalogView" pc="268437673" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="151" parent="globals/_24hAnalogView" pc="268437700" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="24" lineNum="152" parent="globals/_24hAnalogView" pc="268437720" symbol="drawHands"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="25" lineNum="166" parent="globals/_24hAnalogView" pc="268437743" symbol="onEnterSleep"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="25" lineNum="167" parent="globals/_24hAnalogView" pc="268437745" symbol="onEnterSleep"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="25" lineNum="168" parent="globals/_24hAnalogView" pc="268437753" symbol="onEnterSleep"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="26" lineNum="19" parent="globals/_24hAnalogView" pc="268437765" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="26" lineNum="20" parent="globals/_24hAnalogView" pc="268437767" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="26" lineNum="21" parent="globals/_24hAnalogView" pc="268437779" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="26" lineNum="22" parent="globals/_24hAnalogView" pc="268437787" symbol="initialize"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="28" lineNum="56" parent="globals/_24hAnalogView" pc="268437795" symbol="onUpdate"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="28" lineNum="58" parent="globals/_24hAnalogView" pc="268437798" symbol="onUpdate"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="28" lineNum="59" parent="globals/_24hAnalogView" pc="268437810" symbol="onUpdate"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="28" lineNum="62" parent="globals/_24hAnalogView" pc="268437818" symbol="onUpdate"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="28" lineNum="65" parent="globals/_24hAnalogView" pc="268437829" symbol="onUpdate"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="28" lineNum="66" parent="globals/_24hAnalogView" pc="268437841" symbol="onUpdate"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="28" lineNum="67" parent="globals/_24hAnalogView" pc="268437849" symbol="onUpdate"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="28" lineNum="68" parent="globals/_24hAnalogView" pc="268437857" symbol="onUpdate"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/source/24hAnalogView.mc" id="28" lineNum="71" parent="globals/_24hAnalogView" pc="268437865" symbol="onUpdate"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/bin/gen/006-B3906-00/source/Rez.mcgen" id="29" lineNum="13" parent="globals/Rez/Layouts" pc="268437883" symbol="WatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/bin/gen/006-B3906-00/source/Rez.mcgen" id="29" lineNum="14" parent="globals/Rez/Layouts" pc="268437894" symbol="WatchFace"/>
+        <entry filename="/Users/devwork/personal/garmin/24hAnalog/24hAnalog/bin/gen/006-B3906-00/source/Rez.mcgen" id="29" lineNum="16" parent="globals/Rez/Layouts" pc="268437998" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="13" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_radiusMinute&gt;"/>
+        <entry field="true" id="20" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_radiusMinute&gt;"/>
+        <entry field="true" id="36" symbol="HourHandColorTitle"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry id="16" method="true" symbol="drawWatchFace"/>
+        <entry field="true" id="32" symbol="ColorPurple"/>
+        <entry field="true" id="30" symbol="ColorGreen"/>
+        <entry field="true" id="35" symbol="ColorYellow"/>
+        <entry field="true" id="33" symbol="ColorRed"/>
+        <entry id="24" method="true" symbol="drawWatchFace"/>
+        <entry field="true" id="29" symbol="ColorDarkRed"/>
+        <entry id="7" object="true" symbol="SettingsMenuDelegate"/>
+        <entry field="true" id="11" symbol="&lt;globals/ColorMenuDelegate/&lt;&gt;_handType&gt;"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="18" symbol="AppName"/>
+        <entry field="true" id="22" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_secondHandColor&gt;"/>
+        <entry field="true" id="28" symbol="ColorBlue"/>
+        <entry field="true" id="27" symbol="AppName"/>
         <entry id="5" module="true" symbol="globals/Rez/Strings"/>
-        <entry field="true" id="10" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_centerY&gt;"/>
-        <entry field="true" id="9" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_centerX&gt;"/>
+        <entry field="true" id="16" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_hourHandColor&gt;"/>
+        <entry field="true" id="15" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_centerY&gt;"/>
+        <entry field="true" id="14" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_centerX&gt;"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="37" symbol="MinuteHandColorTitle"/>
+        <entry field="true" id="38" symbol="SecondHandColorTitle"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry field="true" id="14" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_radiusSecond&gt;"/>
+        <entry field="true" id="21" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_radiusSecond&gt;"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8389275" method="true" symbol="getApp"/>
@@ -105,13 +178,17 @@
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry id="7" object="true" symbol="_24hAnalogView"/>
+        <entry id="10" object="true" symbol="_24hAnalogView"/>
+        <entry id="6" object="true" symbol="ColorMenuDelegate"/>
+        <entry field="true" id="34" symbol="ColorWhite"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
         <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry field="true" id="18" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_minuteHandColor&gt;"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="17" symbol="LauncherIcon"/>
+        <entry field="true" id="26" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
@@ -119,77 +196,137 @@
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8391703" method="true" symbol="getSettingsView"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8" object="true" symbol="SettingsMenuView"/>
         <entry field="true" id="8389347" symbol="color"/>
-        <entry id="15" method="true" symbol="drawHands"/>
-        <entry id="8" module="true" symbol="Layouts"/>
-        <entry field="true" id="12" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_radiusHour&gt;"/>
-        <entry field="true" id="11" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_inSleepMode&gt;"/>
+        <entry field="true" id="31" symbol="ColorPink"/>
+        <entry id="23" method="true" symbol="drawHands"/>
+        <entry id="13" module="true" symbol="Layouts"/>
+        <entry id="25" method="true" symbol="loadSettings"/>
+        <entry field="true" id="19" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_radiusHour&gt;"/>
+        <entry field="true" id="17" symbol="&lt;globals/_24hAnalogView/&lt;&gt;_inSleepMode&gt;"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry id="6" object="true" symbol="_24hAnalogApp"/>
+        <entry id="9" object="true" symbol="_24hAnalogApp"/>
         <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+        <entry id="12" method="true" symbol="buildColorMenu"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435714" name="dc" stackId="1" startPc="268435600"/>
-        <entry arg="true" endPc="268436018" name="dc" stackId="1" startPc="268435715"/>
-        <entry endPc="268436017" name="outerRadius" stackId="2" startPc="268435718"/>
-        <entry endPc="268436017" name="innerRadius" stackId="3" startPc="268435718"/>
-        <entry endPc="268436017" name="i" stackId="4" startPc="268435775"/>
-        <entry endPc="268436007" name="angle" stackId="5" startPc="268435775"/>
-        <entry endPc="268436007" name="outerX" stackId="6" startPc="268435775"/>
-        <entry endPc="268436007" name="outerY" stackId="7" startPc="268435775"/>
-        <entry endPc="268436007" name="innerX" stackId="8" startPc="268435775"/>
-        <entry endPc="268436007" name="innerY" stackId="9" startPc="268435775"/>
-        <entry endPc="268436007" name="textRadius" stackId="10" startPc="268435775"/>
-        <entry endPc="268436007" name="textX" stackId="11" startPc="268435775"/>
-        <entry endPc="268436007" name="textY" stackId="12" startPc="268435775"/>
-        <entry arg="true" endPc="268436463" name="dc" stackId="1" startPc="268436019"/>
-        <entry arg="true" endPc="268436463" name="hour" stackId="2" startPc="268436019"/>
-        <entry arg="true" endPc="268436463" name="minute" stackId="3" startPc="268436019"/>
-        <entry arg="true" endPc="268436463" name="second" stackId="4" startPc="268436019"/>
-        <entry endPc="268436462" name="hourAngle" stackId="5" startPc="268436022"/>
-        <entry endPc="268436462" name="minuteAngle" stackId="6" startPc="268436022"/>
-        <entry endPc="268436462" name="hourHandX" stackId="7" startPc="268436022"/>
-        <entry endPc="268436462" name="hourHandY" stackId="8" startPc="268436022"/>
-        <entry endPc="268436462" name="minuteHandX" stackId="9" startPc="268436022"/>
-        <entry endPc="268436462" name="minuteHandY" stackId="10" startPc="268436022"/>
-        <entry endPc="268436417" name="secondAngle" stackId="11" startPc="268436292"/>
-        <entry endPc="268436417" name="secondHandX" stackId="12" startPc="268436292"/>
-        <entry endPc="268436417" name="secondHandY" stackId="13" startPc="268436292"/>
-        <entry arg="true" endPc="268436596" name="dc" stackId="1" startPc="268436509"/>
-        <entry endPc="268436595" name="clockTime" stackId="2" startPc="268436512"/>
-        <entry endPc="268436595" name="hour" stackId="3" startPc="268436512"/>
-        <entry endPc="268436595" name="minute" stackId="4" startPc="268436512"/>
-        <entry endPc="268436595" name="second" stackId="5" startPc="268436512"/>
-        <entry arg="true" endPc="268436721" name="dc" stackId="1" startPc="268436597"/>
-        <entry endPc="268436721" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268436608"/>
+        <entry arg="true" endPc="268435584" name="handType" stackId="1" startPc="268435561"/>
+        <entry arg="true" endPc="268435755" name="menuItem" stackId="1" startPc="268435585"/>
+        <entry endPc="268435754" name="colorValue" stackId="2" startPc="268435588"/>
+        <entry arg="true" endPc="268436151" name="handType" stackId="1" startPc="268435756"/>
+        <entry endPc="268436151" name="menu" stackId="2" startPc="268435759"/>
+        <entry arg="true" endPc="268436286" name="menuItem" stackId="1" startPc="268436167"/>
+        <entry endPc="268436285" name="id" stackId="2" startPc="268436170"/>
+        <entry endPc="268436282" name="submenu" stackId="3" startPc="268436230"/>
+        <entry arg="true" endPc="268436592" name="state" stackId="1" startPc="268436449"/>
+        <entry arg="true" endPc="268436846" name="dc" stackId="1" startPc="268436732"/>
+        <entry arg="true" endPc="268437297" name="dc" stackId="1" startPc="268436994"/>
+        <entry endPc="268437296" name="outerRadius" stackId="2" startPc="268436997"/>
+        <entry endPc="268437296" name="innerRadius" stackId="3" startPc="268436997"/>
+        <entry endPc="268437296" name="i" stackId="4" startPc="268437054"/>
+        <entry endPc="268437286" name="angle" stackId="5" startPc="268437054"/>
+        <entry endPc="268437286" name="outerX" stackId="6" startPc="268437054"/>
+        <entry endPc="268437286" name="outerY" stackId="7" startPc="268437054"/>
+        <entry endPc="268437286" name="innerX" stackId="8" startPc="268437054"/>
+        <entry endPc="268437286" name="innerY" stackId="9" startPc="268437054"/>
+        <entry endPc="268437286" name="textRadius" stackId="10" startPc="268437054"/>
+        <entry endPc="268437286" name="textX" stackId="11" startPc="268437054"/>
+        <entry endPc="268437286" name="textY" stackId="12" startPc="268437054"/>
+        <entry arg="true" endPc="268437742" name="dc" stackId="1" startPc="268437298"/>
+        <entry arg="true" endPc="268437742" name="hour" stackId="2" startPc="268437298"/>
+        <entry arg="true" endPc="268437742" name="minute" stackId="3" startPc="268437298"/>
+        <entry arg="true" endPc="268437742" name="second" stackId="4" startPc="268437298"/>
+        <entry endPc="268437741" name="hourAngle" stackId="5" startPc="268437301"/>
+        <entry endPc="268437741" name="minuteAngle" stackId="6" startPc="268437301"/>
+        <entry endPc="268437741" name="hourHandX" stackId="7" startPc="268437301"/>
+        <entry endPc="268437741" name="hourHandY" stackId="8" startPc="268437301"/>
+        <entry endPc="268437741" name="minuteHandX" stackId="9" startPc="268437301"/>
+        <entry endPc="268437741" name="minuteHandY" stackId="10" startPc="268437301"/>
+        <entry endPc="268437696" name="secondAngle" stackId="11" startPc="268437571"/>
+        <entry endPc="268437696" name="secondHandX" stackId="12" startPc="268437571"/>
+        <entry endPc="268437696" name="secondHandY" stackId="13" startPc="268437571"/>
+        <entry arg="true" endPc="268437882" name="dc" stackId="1" startPc="268437795"/>
+        <entry endPc="268437881" name="clockTime" stackId="2" startPc="268437798"/>
+        <entry endPc="268437881" name="hour" stackId="3" startPc="268437798"/>
+        <entry endPc="268437881" name="minute" stackId="4" startPc="268437798"/>
+        <entry endPc="268437881" name="second" stackId="5" startPc="268437798"/>
+        <entry arg="true" endPc="268438007" name="dc" stackId="1" startPc="268437883"/>
+        <entry endPc="268438007" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268437894"/>
     </localVars>
     <deviceInfo deviceVersion="4866e5192c0c99025597cd8e6e841f3d774b64f7" partNumber="006-B3906-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="HourHandColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MinuteHandColorTitle"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SecondHandColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorPink"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorGreen"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorPurple"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorYellow"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/Rez" offset="125" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/_24hAnalogApp" offset="178" parentId="globals" symbolId="_24hAnalogApp" type="class"/>
-        <dataEntry label="globals/_24hAnalogView" offset="249" parentId="globals" symbolId="_24hAnalogView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="419" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="454" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="489" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/ColorMenuDelegate" offset="152" parentId="globals" symbolId="ColorMenuDelegate" type="class"/>
+        <dataEntry label="globals/SettingsMenuDelegate" offset="214" parentId="globals" symbolId="SettingsMenuDelegate" type="class"/>
+        <dataEntry label="globals/SettingsMenuView" offset="276" parentId="globals" symbolId="SettingsMenuView" type="class"/>
+        <dataEntry label="globals/Rez" offset="320" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/_24hAnalogApp" offset="373" parentId="globals" symbolId="_24hAnalogApp" type="class"/>
+        <dataEntry label="globals/_24hAnalogView" offset="453" parentId="globals" symbolId="_24hAnalogView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="659" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="694" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="729" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="ColorMenuDelegate" startPc="268435460">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="Rez" startPc="268435481">
+        <functionEntry accessMode="public" endPc="268435483" name="&lt;init&gt;" parent="SettingsMenuDelegate" startPc="268435472">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="_24hAnalogApp" startPc="268435501">
+        <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435484">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="_24hAnalogView" startPc="268435513">
+        <functionEntry accessMode="public" endPc="268435516" name="&lt;init&gt;" parent="SettingsMenuView" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="Rez" startPc="268435517">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435548" name="&lt;init&gt;" parent="_24hAnalogApp" startPc="268435537">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435560" name="&lt;init&gt;" parent="_24hAnalogView" startPc="268435549">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435584" name="initialize" parent="ColorMenuDelegate" startPc="268435561">
+            <param id="handType"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435755" name="onSelect" parent="ColorMenuDelegate" startPc="268435585">
+            <param id="menuItem"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436151" name="buildColorMenu" parent="SettingsMenuDelegate" startPc="268435756">
+            <param id="handType"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436166" name="initialize" parent="SettingsMenuDelegate" startPc="268436152">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436286" name="onSelect" parent="SettingsMenuDelegate" startPc="268436167">
+            <param id="menuItem"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436448" name="initialize" parent="SettingsMenuView" startPc="268436287">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -201,55 +338,61 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435527" name="onStart" parent="_24hAnalogApp" startPc="268435525">
+        <functionEntry accessMode="public" endPc="268436592" name="onStart" parent="_24hAnalogApp" startPc="268436449">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435559" name="getInitialView" parent="_24hAnalogApp" startPc="268435528">
+        <functionEntry accessMode="public" endPc="268436649" name="getSettingsView" parent="_24hAnalogApp" startPc="268436593">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435574" name="initialize" parent="_24hAnalogApp" startPc="268435560">
+        <functionEntry accessMode="public" endPc="268436681" name="getInitialView" parent="_24hAnalogApp" startPc="268436650">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435577" name="onStop" parent="_24hAnalogApp" startPc="268435575">
+        <functionEntry accessMode="public" endPc="268436696" name="initialize" parent="_24hAnalogApp" startPc="268436682">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436699" name="onStop" parent="_24hAnalogApp" startPc="268436697">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435599" name="onExitSleep" parent="_24hAnalogView" startPc="268435578">
+        <functionEntry accessMode="public" endPc="268436721" name="onExitSleep" parent="_24hAnalogView" startPc="268436700">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="onShow" parent="_24hAnalogView">
+        <functionEntry accessMode="public" endPc="268436731" name="onShow" parent="_24hAnalogView" startPc="268436722">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435714" name="onLayout" parent="_24hAnalogView" startPc="268435600">
+        <functionEntry accessMode="public" endPc="268436846" name="onLayout" parent="_24hAnalogView" startPc="268436732">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436018" name="drawWatchFace" parent="_24hAnalogView" startPc="268435715">
+        <functionEntry accessMode="public" endPc="268436993" name="loadSettings" parent="_24hAnalogView" startPc="268436847">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437297" name="drawWatchFace" parent="_24hAnalogView" startPc="268436994">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436463" name="drawHands" parent="_24hAnalogView" startPc="268436019">
+        <functionEntry accessMode="public" endPc="268437742" name="drawHands" parent="_24hAnalogView" startPc="268437298">
             <param id="dc"/>
             <param id="hour"/>
             <param id="minute"/>
             <param id="second"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436485" name="onEnterSleep" parent="_24hAnalogView" startPc="268436464">
+        <functionEntry accessMode="public" endPc="268437764" name="onEnterSleep" parent="_24hAnalogView" startPc="268437743">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436508" name="initialize" parent="_24hAnalogView" startPc="268436486">
+        <functionEntry accessMode="public" endPc="268437794" name="initialize" parent="_24hAnalogView" startPc="268437765">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="_24hAnalogView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436596" name="onUpdate" parent="_24hAnalogView" startPc="268436509">
+        <functionEntry accessMode="public" endPc="268437882" name="onUpdate" parent="_24hAnalogView" startPc="268437795">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436721" name="WatchFace" parent="Layouts" startPc="268436597">
+        <functionEntry accessMode="public" endPc="268438007" name="WatchFace" parent="Layouts" startPc="268437883">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

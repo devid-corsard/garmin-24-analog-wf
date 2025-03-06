@@ -1,3 +1,18 @@
 <strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
-    <string id="AppName">24hAnalog</string>
+    <string id="AppName">24h Analog</string>
+    
+    <!-- Settings Strings -->
+    <string id="HourHandColorTitle">Hour Hand Color</string>
+    <string id="MinuteHandColorTitle">Minute Hand Color</string>
+    <string id="SecondHandColorTitle">Second Hand Color</string>
+    
+    <!-- Color Names -->
+    <string id="ColorRed">Red</string>
+    <string id="ColorDarkRed">Dark Red</string>
+    <string id="ColorWhite">White</string>
+    <string id="ColorYellow">Yellow</string>
+    <string id="ColorGreen">Green</string>
+    <string id="ColorBlue">Blue</string>
+    <string id="ColorPurple">Purple</string>
+    <string id="ColorPink">Pink</string>
 </strings>
