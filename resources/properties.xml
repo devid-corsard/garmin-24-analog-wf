@@ -2,4 +2,5 @@
     <property id="hourHandColor" type="number">0xFF0000</property>
     <property id="minuteHandColor" type="number">0xFFFFFF</property>
     <property id="secondHandColor" type="number">0xFFFF00</property>
+    <property id="handSize" type="number">1</property>
 </properties>

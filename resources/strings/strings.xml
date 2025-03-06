@@ -5,6 +5,7 @@
     <string id="HourHandColorTitle">Hour Hand Color</string>
     <string id="MinuteHandColorTitle">Minute Hand Color</string>
     <string id="SecondHandColorTitle">Second Hand Color</string>
+    <string id="HandSizeTitle">Hand Size</string>
     
     <!-- Color Names -->
     <string id="ColorRed">Red</string>
@@ -15,4 +16,9 @@
     <string id="ColorBlue">Blue</string>
     <string id="ColorPurple">Purple</string>
     <string id="ColorPink">Pink</string>
+    
+    <!-- Hand Size -->
+    <string id="HandSizeThin">Thin</string>
+    <string id="HandSizeBig">Big</string>
+    <string id="HandSizeMassive">Massive</string>
 </strings>

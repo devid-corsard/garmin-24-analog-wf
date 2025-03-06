@@ -5,6 +5,12 @@ import Toybox.WatchUi;
 import Toybox.Math;
 import Toybox.Application;
 
+enum HandSize {
+    small = 1,
+    medium,
+    large
+}
+
 class _24hAnalogView extends WatchUi.WatchFace {
     private var _centerX;
     private var _centerY;
@@ -15,6 +21,7 @@ class _24hAnalogView extends WatchUi.WatchFace {
     private var _hourHandColor;
     private var _minuteHandColor;
     private var _secondHandColor;
+    private var _handSize; // New property for hand size setting
     
     function initialize() {
         WatchFace.initialize();
@@ -27,11 +34,13 @@ class _24hAnalogView extends WatchUi.WatchFace {
         _hourHandColor = Application.Properties.getValue("hourHandColor") as Number;
         _minuteHandColor = Application.Properties.getValue("minuteHandColor") as Number;
         _secondHandColor = Application.Properties.getValue("secondHandColor") as Number;
+        _handSize = Application.Properties.getValue("handSize") as HandSize;
         
         // Set defaults if settings are not available
         if (_hourHandColor == null) { _hourHandColor = Graphics.COLOR_RED; }
         if (_minuteHandColor == null) { _minuteHandColor = Graphics.COLOR_WHITE; }
         if (_secondHandColor == null) { _secondHandColor = Graphics.COLOR_YELLOW; }
+        if (_handSize == null) { _handSize = small; }
     }
 
     // Load your resources here
@@ -125,14 +134,32 @@ class _24hAnalogView extends WatchUi.WatchFace {
         var minuteHandX = _centerX + _radiusMinute * Math.sin(minuteAngle);
         var minuteHandY = _centerY - _radiusMinute * Math.cos(minuteAngle);
         
-        // Draw the hour hand (thicker)
+        // Calculate widths based on hand size setting
+        var hourHandWidth = 6;
+        var minuteHandWidth = 3;
+        var secondHandWidth = 2;
+        var centerCircleRadius = 4;
+        
+        if (_handSize.equals(medium)) {
+            hourHandWidth = 9;  // 6 * 1.5
+            minuteHandWidth = 5;  // 3 * 1.5 (rounded)
+            secondHandWidth = 3;  // 2 * 1.5 (rounded)
+            centerCircleRadius = 6;  // 4 * 1.5
+        } else if (_handSize.equals(large)) {
+            hourHandWidth = 15;  // 6 * 2
+            minuteHandWidth = 8;  // 3 * 2
+            secondHandWidth = 4;  // 2 * 2
+            centerCircleRadius = 8;  // 4 * 2
+        }
+        
+        // Draw the hour hand
         dc.setColor(_hourHandColor, Graphics.COLOR_TRANSPARENT);
-        dc.setPenWidth(6);
+        dc.setPenWidth(hourHandWidth);
         dc.drawLine(_centerX, _centerY, hourHandX, hourHandY);
         
-        // Draw the minute hand (thinner)
+        // Draw the minute hand
         dc.setColor(_minuteHandColor, Graphics.COLOR_TRANSPARENT);
-        dc.setPenWidth(3);
+        dc.setPenWidth(minuteHandWidth);
         dc.drawLine(_centerX, _centerY, minuteHandX, minuteHandY);
         
         // Draw the second hand only if not in sleep mode
@@ -143,13 +170,13 @@ class _24hAnalogView extends WatchUi.WatchFace {
             var secondHandY = _centerY - _radiusSecond * Math.cos(secondAngle);
             
             dc.setColor(_secondHandColor, Graphics.COLOR_TRANSPARENT);
-            dc.setPenWidth(2);
+            dc.setPenWidth(secondHandWidth);
             dc.drawLine(_centerX, _centerY, secondHandX, secondHandY);
         }
         
         // Draw center circle
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
-        dc.fillCircle(_centerX, _centerY, 4);
+        dc.fillCircle(_centerX, _centerY, centerCircleRadius);
     }
 
     // Called when this View is removed from the screen

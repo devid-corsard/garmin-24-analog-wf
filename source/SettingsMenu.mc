@@ -10,6 +10,7 @@ class SettingsMenuView extends WatchUi.Menu2 {
         addItem(new WatchUi.MenuItem("Hour Hand", null, "hourHand", null));
         addItem(new WatchUi.MenuItem("Minute Hand", null, "minuteHand", null));
         addItem(new WatchUi.MenuItem("Second Hand", null, "secondHand", null));
+        addItem(new WatchUi.MenuItem("Hand Size", null, "handSize", null));
     }
 }
 
@@ -24,6 +25,9 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
         if (id.equals("hourHand") || id.equals("minuteHand") || id.equals("secondHand")) {
             var submenu = buildColorMenu(id);
             WatchUi.pushView(submenu, new ColorMenuDelegate(id), WatchUi.SLIDE_LEFT);
+        } else if (id.equals("handSize")) {
+            var submenu = buildSizeMenu(id);
+            WatchUi.pushView(submenu, new HandSizeMenuDelegate(id), WatchUi.SLIDE_LEFT);
         }
     }
     
@@ -38,6 +42,16 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
         menu.addItem(new WatchUi.MenuItem("Blue", null, Graphics.COLOR_BLUE, null));
         menu.addItem(new WatchUi.MenuItem("Purple", null, Graphics.COLOR_PURPLE, null));
         menu.addItem(new WatchUi.MenuItem("Pink", null, Graphics.COLOR_PINK, null));
+        
+        return menu;
+    }
+    
+    function buildSizeMenu(handType as String) {
+        var menu = new WatchUi.Menu2({:title=>"Select Size"});
+        
+        menu.addItem(new WatchUi.MenuItem("Small", null, 1, null));
+        menu.addItem(new WatchUi.MenuItem("Medium", null, 2, null));
+        menu.addItem(new WatchUi.MenuItem("Large", null, 3, null));
         
         return menu;
     }
@@ -61,6 +75,22 @@ class ColorMenuDelegate extends WatchUi.Menu2InputDelegate {
         } else if (_handType.equals("secondHand")) {
             Application.Properties.setValue("secondHandColor", colorValue);
         }
+        
+        WatchUi.popView(WatchUi.SLIDE_RIGHT);
+        WatchUi.requestUpdate();
+    }
+}
+
+class HandSizeMenuDelegate extends WatchUi.Menu2InputDelegate {
+    
+    function initialize(handType as String) {
+        Menu2InputDelegate.initialize();
+    }
+    
+    function onSelect(menuItem as MenuItem) {
+        var sizeValue = menuItem.getId() as Number;
+        
+        Application.Properties.setValue("handSize", sizeValue);
         
         WatchUi.popView(WatchUi.SLIDE_RIGHT);
         WatchUi.requestUpdate();
