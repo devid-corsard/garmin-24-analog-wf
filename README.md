@@ -2,6 +2,10 @@
 
 A 24-hour analog watch face for Garmin devices that displays time in a full-day rotation format.
 
+## Install
+
+copy file `bin/24hAnalog.prg` to garmin/apps folder on device
+
 ## Overview
 
 Most analog watches complete a full revolution every 12 hours, making it difficult to distinguish between AM and PM. This watch face solves that problem by implementing a 24-hour dial where the hour hand makes exactly one complete revolution per day.
