@@ -11,6 +11,10 @@ class SettingsMenuView extends WatchUi.Menu2 {
         addItem(new WatchUi.MenuItem("Minute Hand", null, "minuteHand", null));
         addItem(new WatchUi.MenuItem("Second Hand", null, "secondHand", null));
         addItem(new WatchUi.MenuItem("Hand Size", null, "handSize", null));
+        
+        // Add heart rate menu items
+        addItem(new WatchUi.MenuItem("Show Heart Rate", null, "showHeartRate", null));
+        addItem(new WatchUi.MenuItem("Heart Rate Color", null, "heartRateColor", null));
     }
 }
 
@@ -22,12 +26,15 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
     function onSelect(menuItem as MenuItem) {
         var id = menuItem.getId() as String;
         
-        if (id.equals("hourHand") || id.equals("minuteHand") || id.equals("secondHand")) {
+        if (id.equals("hourHand") || id.equals("minuteHand") || id.equals("secondHand") || id.equals("heartRateColor")) {
             var submenu = buildColorMenu(id);
             WatchUi.pushView(submenu, new ColorMenuDelegate(id), WatchUi.SLIDE_LEFT);
         } else if (id.equals("handSize")) {
             var submenu = buildSizeMenu(id);
             WatchUi.pushView(submenu, new HandSizeMenuDelegate(id), WatchUi.SLIDE_LEFT);
+        } else if (id.equals("showHeartRate")) {
+            var submenu = buildBooleanMenu(id);
+            WatchUi.pushView(submenu, new BooleanMenuDelegate(id), WatchUi.SLIDE_LEFT);
         }
     }
     
@@ -55,6 +62,15 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
         
         return menu;
     }
+    
+    function buildBooleanMenu(settingType as String) {
+        var menu = new WatchUi.Menu2({:title=>"Toggle Setting"});
+        
+        menu.addItem(new WatchUi.MenuItem("Enabled", null, true, null));
+        menu.addItem(new WatchUi.MenuItem("Disabled", null, false, null));
+        
+        return menu;
+    }
 }
 
 class ColorMenuDelegate extends WatchUi.Menu2InputDelegate {
@@ -74,6 +90,8 @@ class ColorMenuDelegate extends WatchUi.Menu2InputDelegate {
             Application.Properties.setValue("minuteHandColor", colorValue);
         } else if (_handType.equals("secondHand")) {
             Application.Properties.setValue("secondHandColor", colorValue);
+        } else if (_handType.equals("heartRateColor")) {
+            Application.Properties.setValue("heartRateColor", colorValue);
         }
         
         WatchUi.popView(WatchUi.SLIDE_RIGHT);
@@ -91,6 +109,26 @@ class HandSizeMenuDelegate extends WatchUi.Menu2InputDelegate {
         var sizeValue = menuItem.getId() as Number;
         
         Application.Properties.setValue("handSize", sizeValue);
+        
+        WatchUi.popView(WatchUi.SLIDE_RIGHT);
+        WatchUi.requestUpdate();
+    }
+}
+
+class BooleanMenuDelegate extends WatchUi.Menu2InputDelegate {
+    private var _settingType;
+    
+    function initialize(settingType as String) {
+        Menu2InputDelegate.initialize();
+        _settingType = settingType;
+    }
+    
+    function onSelect(menuItem as MenuItem) {
+        var boolValue = menuItem.getId() as Boolean;
+        
+        if (_settingType.equals("showHeartRate")) {
+            Application.Properties.setValue("showHeartRate", boolValue);
+        }
         
         WatchUi.popView(WatchUi.SLIDE_RIGHT);
         WatchUi.requestUpdate();

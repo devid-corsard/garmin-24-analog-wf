@@ -21,12 +21,16 @@ module Rez {
         (:initialized) var ColorBlue as ResourceId;
         (:initialized) var ColorDarkRed as ResourceId;
         (:initialized) var HandSizeTitle as ResourceId;
+        (:initialized) var ShowHeartRateTitle as ResourceId;
+        (:initialized) var HeartRateColorTitle as ResourceId;
         (:initialized) var HandSizeBig as ResourceId;
         (:initialized) var ColorYellow as ResourceId;
         (:initialized) var HandSizeMassive as ResourceId;
         (:initialized) var AppName as ResourceId;
         (:initialized) var ColorRed as ResourceId;
+        (:initialized) var HandSizeLarge as ResourceId;
         (:initialized) var MinuteHandColorTitle as ResourceId;
+        (:initialized) var HandSizeSmall as ResourceId;
         (:initialized) var HandSizeThin as ResourceId;
         (:initialized) var HourHandColorTitle as ResourceId;
         (:initialized) var ColorPurple as ResourceId;
@@ -34,6 +38,7 @@ module Rez {
         (:initialized) var ColorWhite as ResourceId;
         (:initialized) var ColorGreen as ResourceId;
         (:initialized) var SecondHandColorTitle as ResourceId;
+        (:initialized) var HandSizeMedium as ResourceId;
     } // Strings
 
     module Styles {

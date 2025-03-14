@@ -3,4 +3,6 @@
     <property id="minuteHandColor" type="number">0xFFFFFF</property>
     <property id="secondHandColor" type="number">0xFFFF00</property>
     <property id="handSize" type="number">1</property>
+    <property id="showHeartRate" type="boolean">true</property>
+    <property id="heartRateColor" type="number">0xFF0000</property>
 </properties>

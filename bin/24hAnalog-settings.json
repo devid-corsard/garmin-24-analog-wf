@@ -14,17 +14,26 @@
       "display" : "ColorRed",
       "value" : 16711680
     }, {
-      "display" : "ColorGreen",
-      "value" : 65280
-    }, {
-      "display" : "ColorBlue",
-      "value" : 255
+      "display" : "ColorDarkRed",
+      "value" : 8388608
     }, {
       "display" : "ColorWhite",
       "value" : 16777215
     }, {
       "display" : "ColorYellow",
       "value" : 16776960
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    }, {
+      "display" : "ColorBlue",
+      "value" : 255
+    }, {
+      "display" : "ColorPurple",
+      "value" : 8388736
+    }, {
+      "display" : "ColorPink",
+      "value" : 16761035
     } ],
     "configMin" : null,
     "configMax" : null,
@@ -44,17 +53,26 @@
       "display" : "ColorRed",
       "value" : 16711680
     }, {
-      "display" : "ColorGreen",
-      "value" : 65280
-    }, {
-      "display" : "ColorBlue",
-      "value" : 255
+      "display" : "ColorDarkRed",
+      "value" : 8388608
     }, {
       "display" : "ColorWhite",
       "value" : 16777215
     }, {
       "display" : "ColorYellow",
       "value" : 16776960
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    }, {
+      "display" : "ColorBlue",
+      "value" : 255
+    }, {
+      "display" : "ColorPurple",
+      "value" : 8388736
+    }, {
+      "display" : "ColorPink",
+      "value" : 16761035
     } ],
     "configMin" : null,
     "configMax" : null,
@@ -74,17 +92,26 @@
       "display" : "ColorRed",
       "value" : 16711680
     }, {
-      "display" : "ColorGreen",
-      "value" : 65280
-    }, {
-      "display" : "ColorBlue",
-      "value" : 255
+      "display" : "ColorDarkRed",
+      "value" : 8388608
     }, {
       "display" : "ColorWhite",
       "value" : 16777215
     }, {
       "display" : "ColorYellow",
       "value" : 16776960
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    }, {
+      "display" : "ColorBlue",
+      "value" : 255
+    }, {
+      "display" : "ColorPurple",
+      "value" : 8388736
+    }, {
+      "display" : "ColorPink",
+      "value" : 16761035
     } ],
     "configMin" : null,
     "configMax" : null,
@@ -101,14 +128,68 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
-      "display" : "HandSizeThin",
+      "display" : "HandSizeSmall",
       "value" : 1
     }, {
-      "display" : "HandSizeBig",
+      "display" : "HandSizeMedium",
       "value" : 2
     }, {
-      "display" : "HandSizeMassive",
+      "display" : "HandSizeLarge",
       "value" : 3
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "showHeartRate",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "ShowHeartRateTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "heartRateColor",
+    "valueType" : "number",
+    "defaultValue" : 16711680,
+    "configTitle" : "HeartRateColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ColorRed",
+      "value" : 16711680
+    }, {
+      "display" : "ColorDarkRed",
+      "value" : 8388608
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorYellow",
+      "value" : 16776960
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    }, {
+      "display" : "ColorBlue",
+      "value" : 255
+    }, {
+      "display" : "ColorPurple",
+      "value" : 8388736
+    }, {
+      "display" : "ColorPink",
+      "value" : 16761035
     } ],
     "configMin" : null,
     "configMax" : null,
@@ -120,19 +201,24 @@
       "ColorBlue" : "Blue",
       "ColorDarkRed" : "Dark Red",
       "HandSizeTitle" : "Hand Size",
+      "ShowHeartRateTitle" : "Show Heart Rate",
+      "HeartRateColorTitle" : "Heart Rate Color",
       "HandSizeBig" : "Big",
       "ColorYellow" : "Yellow",
       "HandSizeMassive" : "Massive",
       "AppName" : "24h Analog",
       "ColorRed" : "Red",
+      "HandSizeLarge" : "Large",
       "MinuteHandColorTitle" : "Minute Hand Color",
+      "HandSizeSmall" : "Small",
       "HandSizeThin" : "Thin",
       "HourHandColorTitle" : "Hour Hand Color",
       "ColorPurple" : "Purple",
       "ColorPink" : "Pink",
       "ColorWhite" : "White",
       "ColorGreen" : "Green",
-      "SecondHandColorTitle" : "Second Hand Color"
+      "SecondHandColorTitle" : "Second Hand Color",
+      "HandSizeMedium" : "Medium"
     }
   }
 }

@@ -2,38 +2,66 @@
     <setting propertyKey="@Properties.hourHandColor" title="@Strings.HourHandColorTitle">
         <settingConfig type="list">
             <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
-            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x800000">@Strings.ColorDarkRed</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
             <listEntry value="0xFFFF00">@Strings.ColorYellow</listEntry>
+            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x800080">@Strings.ColorPurple</listEntry>
+            <listEntry value="0xFFC0CB">@Strings.ColorPink</listEntry>
         </settingConfig>
     </setting>
 
     <setting propertyKey="@Properties.minuteHandColor" title="@Strings.MinuteHandColorTitle">
         <settingConfig type="list">
             <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
-            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x800000">@Strings.ColorDarkRed</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
             <listEntry value="0xFFFF00">@Strings.ColorYellow</listEntry>
+            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x800080">@Strings.ColorPurple</listEntry>
+            <listEntry value="0xFFC0CB">@Strings.ColorPink</listEntry>
         </settingConfig>
     </setting>
 
     <setting propertyKey="@Properties.secondHandColor" title="@Strings.SecondHandColorTitle">
         <settingConfig type="list">
             <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
-            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x800000">@Strings.ColorDarkRed</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
             <listEntry value="0xFFFF00">@Strings.ColorYellow</listEntry>
+            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x800080">@Strings.ColorPurple</listEntry>
+            <listEntry value="0xFFC0CB">@Strings.ColorPink</listEntry>
         </settingConfig>
     </setting>
 
+    <!-- Hand Size Setting -->
     <setting propertyKey="@Properties.handSize" title="@Strings.HandSizeTitle">
         <settingConfig type="list">
-            <listEntry value="1">@Strings.HandSizeThin</listEntry>
-            <listEntry value="2">@Strings.HandSizeBig</listEntry>
-            <listEntry value="3">@Strings.HandSizeMassive</listEntry>
+            <listEntry value="1">@Strings.HandSizeSmall</listEntry>
+            <listEntry value="2">@Strings.HandSizeMedium</listEntry>
+            <listEntry value="3">@Strings.HandSizeLarge</listEntry>
+        </settingConfig>
+    </setting>
+
+    <!-- Heart Rate Settings -->
+    <setting propertyKey="@Properties.showHeartRate" title="@Strings.ShowHeartRateTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="@Properties.heartRateColor" title="@Strings.HeartRateColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0x800000">@Strings.ColorDarkRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+            <listEntry value="0xFFFF00">@Strings.ColorYellow</listEntry>
+            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x800080">@Strings.ColorPurple</listEntry>
+            <listEntry value="0xFFC0CB">@Strings.ColorPink</listEntry>
         </settingConfig>
     </setting>
 </settings>

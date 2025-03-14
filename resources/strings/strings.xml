@@ -6,6 +6,9 @@
     <string id="MinuteHandColorTitle">Minute Hand Color</string>
     <string id="SecondHandColorTitle">Second Hand Color</string>
     <string id="HandSizeTitle">Hand Size</string>
+    <string id="HandSizeSmall">Small</string>
+    <string id="HandSizeMedium">Medium</string>
+    <string id="HandSizeLarge">Large</string>
     
     <!-- Color Names -->
     <string id="ColorRed">Red</string>
@@ -21,4 +24,8 @@
     <string id="HandSizeThin">Thin</string>
     <string id="HandSizeBig">Big</string>
     <string id="HandSizeMassive">Massive</string>
+    
+    <!-- Heart Rate strings -->
+    <string id="ShowHeartRateTitle">Show Heart Rate</string>
+    <string id="HeartRateColorTitle">Heart Rate Color</string>
 </strings>

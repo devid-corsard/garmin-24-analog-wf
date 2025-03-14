@@ -4,6 +4,8 @@ import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Math;
 import Toybox.Application;
+import Toybox.Activity;
+import Toybox.ActivityMonitor;
 
 enum HandSize {
     small = 1,
@@ -21,11 +23,18 @@ class _24hAnalogView extends WatchUi.WatchFace {
     private var _hourHandColor;
     private var _minuteHandColor;
     private var _secondHandColor;
-    private var _handSize; // New property for hand size setting
+    private var _handSize;
+    
+    // Heart rate display properties
+    private var _showHeartRate;
+    private var _heartRateColor;
+    private var _lastHeartRate;
+    private var _heartRateY;
     
     function initialize() {
         WatchFace.initialize();
         _inSleepMode = false;
+        _lastHeartRate = null;
         loadSettings();
     }
 
@@ -35,12 +44,16 @@ class _24hAnalogView extends WatchUi.WatchFace {
         _minuteHandColor = Application.Properties.getValue("minuteHandColor") as Number;
         _secondHandColor = Application.Properties.getValue("secondHandColor") as Number;
         _handSize = Application.Properties.getValue("handSize") as HandSize;
+        _showHeartRate = Application.Properties.getValue("showHeartRate") as Boolean;
+        _heartRateColor = Application.Properties.getValue("heartRateColor") as Number;
         
         // Set defaults if settings are not available
         if (_hourHandColor == null) { _hourHandColor = Graphics.COLOR_RED; }
         if (_minuteHandColor == null) { _minuteHandColor = Graphics.COLOR_WHITE; }
         if (_secondHandColor == null) { _secondHandColor = Graphics.COLOR_YELLOW; }
         if (_handSize == null) { _handSize = small; }
+        if (_showHeartRate == null) { _showHeartRate = true; }
+        if (_heartRateColor == null) { _heartRateColor = Graphics.COLOR_RED; }
     }
 
     // Load your resources here
@@ -54,6 +67,9 @@ class _24hAnalogView extends WatchUi.WatchFace {
         _radiusHour = (dc.getWidth() * 0.3).toNumber();
         _radiusMinute = (dc.getWidth() * 0.37).toNumber();
         _radiusSecond = (dc.getWidth() * 0.42).toNumber();
+        
+        // Position heart rate text in the bottom portion of the watch face
+        _heartRateY = _centerY + (_centerY * 0.3);
     }
 
     // Called when this View is brought to the foreground
@@ -78,6 +94,11 @@ class _24hAnalogView extends WatchUi.WatchFace {
         
         // Draw the hands
         drawHands(dc, hour, minute, second);
+        
+        // Draw heart rate if enabled and not in sleep mode
+        if (_showHeartRate && !_inSleepMode) {
+            drawHeartRate(dc);
+        }
     }
     
     // Draw the watch face with 24-hour markers
@@ -177,6 +198,46 @@ class _24hAnalogView extends WatchUi.WatchFace {
         // Draw center circle
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_WHITE);
         dc.fillCircle(_centerX, _centerY, centerCircleRadius);
+    }
+
+    // Get current heart rate data
+    function getHeartRate() as Number? {
+        var heartRate = null;
+        var activityInfo = Activity.getActivityInfo();
+        
+        if (activityInfo != null && activityInfo.currentHeartRate != null) {
+            // Use current heart rate if available from ongoing activity
+            heartRate = activityInfo.currentHeartRate;
+        } else {
+            // Otherwise try to get the latest heart rate from the monitor
+            var sample = ActivityMonitor.getHeartRateHistory(1, true).next();
+            if (sample != null && sample.heartRate != ActivityMonitor.INVALID_HR_SAMPLE) {
+                heartRate = sample.heartRate;
+            }
+        }
+        
+        return heartRate;
+    }
+    
+    // Draw heart rate on the watch face
+    function drawHeartRate(dc as Dc) as Void {
+        // Try to get current heart rate
+        var currentHeartRate = getHeartRate();
+        
+        // Update stored heart rate if we got a valid value
+        if (currentHeartRate != null) {
+            _lastHeartRate = currentHeartRate;
+        }
+        
+        // Draw heart rate if we have a value
+        if (_lastHeartRate != null) {
+            dc.setColor(_heartRateColor, Graphics.COLOR_TRANSPARENT);
+            
+            // Draw heart symbol and heart rate
+            var hrText = _lastHeartRate.toString();
+            var heartSymbol = "♥ "; // Heart symbol followed by a space
+            dc.drawText(_centerX, _heartRateY, Graphics.FONT_MEDIUM, heartSymbol + hrText, Graphics.TEXT_JUSTIFY_CENTER);
+        }
     }
 
     // Called when this View is removed from the screen
