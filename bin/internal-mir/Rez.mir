@@ -39,10 +39,12 @@ _Users_devwork_personal_garmin_24hAnalog_24hAnalog_bin_gen_006_B3906_00_source_R
             %tmp.4 = getv function ? %tmp.3 :Text;
             %tmp.5 = newd 6;
             %tmp.7 = const :identifier;
+            symbol [ identifier %tmp.7 14 66 76 const ];
             %tmp.8 = "TimeLabel";
             %tmp.9 = dup %tmp.5;
             %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
             %tmp.12 = const :color;
+            symbol [ color %tmp.12 14 92 97 const ];
             symbol [ Graphics %tmp.13 14 99 107 ];
             %tmp.13 = getm $.Toybox.Graphics;
             symbol [ COLOR_BLUE %tmp.14 14 108 118 ];
@@ -50,12 +52,14 @@ _Users_devwork_personal_garmin_24hAnalog_24hAnalog_bin_gen_006_B3906_00_source_R
             %tmp.15 = dup %tmp.10;
             %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
             %tmp.18 = const :locX;
+            symbol [ locX %tmp.18 14 121 125 const ];
             %tmp.19 = 260;
             %tmp.20 = 0.5;
             %tmp.21 = mul %tmp.19 %tmp.20;
             %tmp.22 = dup %tmp.16;
             %tmp.23 = aputv %tmp.22 %tmp.18 %tmp.21;
             %tmp.25 = const :locY;
+            symbol [ locY %tmp.25 14 141 145 const ];
             %tmp.26 = 260;
             %tmp.27 = lgetv %dc;
             symbol [ dc %tmp.27 14 155 157 ];
@@ -72,6 +76,7 @@ _Users_devwork_personal_garmin_24hAnalog_24hAnalog_bin_gen_006_B3906_00_source_R
             %tmp.35 = dup %tmp.23;
             %tmp.36 = aputv %tmp.35 %tmp.25 %tmp.34;
             %tmp.38 = const :justification;
+            symbol [ justification %tmp.38 14 203 216 const ];
             symbol [ Graphics %tmp.39 14 218 226 ];
             %tmp.39 = getm $.Toybox.Graphics;
             symbol [ TEXT_JUSTIFY_CENTER %tmp.40 14 227 246 ];
@@ -79,6 +84,7 @@ _Users_devwork_personal_garmin_24hAnalog_24hAnalog_bin_gen_006_B3906_00_source_R
             %tmp.41 = dup %tmp.36;
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.44 = const :font;
+            symbol [ font %tmp.44 14 249 253 const ];
             symbol [ Graphics %tmp.45 14 255 263 ];
             %tmp.45 = getm $.Toybox.Graphics;
             symbol [ FONT_LARGE %tmp.46 14 264 274 ];
@@ -90,6 +96,9 @@ _Users_devwork_personal_garmin_24hAnalog_24hAnalog_bin_gen_006_B3906_00_source_R
             symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.1 14 16 44 ];
 [ "/Users/devwork/personal/garmin/24hAnalog/24hAnalog/bin/gen/006-B3906-00/source/Rez.mcgen" 16 12 ]
             %tmp.49 = newa 1 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.49 16 53 58 ];
+            symbol [ WatchUi %tmp.49 16 59 66 ];
+            symbol [ Drawable %tmp.49 16 67 75 ];
             %tmp.50 = lgetv %rez_cmp_local_text_TimeLabel.1;
             symbol [ rez_cmp_local_text_TimeLabel %tmp.50 16 20 48 ];
             %tmp.51 = dup %tmp.49;

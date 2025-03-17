@@ -25,6 +25,7 @@ _Users_devwork_personal_garmin_24hAnalog_24hAnalog_source_SettingsMenu_mc_7_26_1
         %tmp.3 = getv function %tmp.2 :initialize;
         %tmp.4 = newd 1;
         %tmp.6 = const :title;
+        symbol [ title %tmp.6 8 27 32 const ];
         %tmp.7 = "Watch Settings";
         %tmp.8 = dup %tmp.4;
         %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
@@ -334,6 +335,7 @@ _Users_devwork_personal_garmin_24hAnalog_24hAnalog_source_SettingsMenu_mc_41_48_
         %tmp.4 = getv function ? %tmp.3 :Menu2;
         %tmp.5 = newd 1;
         %tmp.7 = const :title;
+        symbol [ title %tmp.7 42 39 44 const ];
         %tmp.8 = "Select Color";
         %tmp.9 = dup %tmp.5;
         %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
@@ -503,6 +505,7 @@ _Users_devwork_personal_garmin_24hAnalog_24hAnalog_source_SettingsMenu_mc_56_47_
         %tmp.4 = getv function ? %tmp.3 :Menu2;
         %tmp.5 = newd 1;
         %tmp.7 = const :title;
+        symbol [ title %tmp.7 57 39 44 const ];
         %tmp.8 = "Select Size";
         %tmp.9 = dup %tmp.5;
         %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
@@ -573,6 +576,7 @@ _Users_devwork_personal_garmin_24hAnalog_24hAnalog_source_SettingsMenu_mc_66_53_
         %tmp.4 = getv function ? %tmp.3 :Menu2;
         %tmp.5 = newd 1;
         %tmp.7 = const :title;
+        symbol [ title %tmp.7 67 39 44 const ];
         %tmp.8 = "Toggle Setting";
         %tmp.9 = dup %tmp.5;
         %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;

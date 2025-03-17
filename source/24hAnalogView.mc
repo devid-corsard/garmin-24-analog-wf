@@ -64,9 +64,9 @@ class _24hAnalogView extends WatchUi.WatchFace {
         
         // Set the radius for the hour and minute hands
         // Hour hand will be shorter than minute hand
-        _radiusHour = (dc.getWidth() * 0.3).toNumber();
-        _radiusMinute = (dc.getWidth() * 0.37).toNumber();
-        _radiusSecond = (dc.getWidth() * 0.42).toNumber();
+        _radiusHour = (dc.getWidth() * 0.32).toNumber();
+        _radiusMinute = (dc.getWidth() * 0.5).toNumber();
+        _radiusSecond = (dc.getWidth() * 0.45).toNumber();
         
         // Position heart rate text in the bottom portion of the watch face
         _heartRateY = _centerY + (_centerY * 0.3);
@@ -112,8 +112,8 @@ class _24hAnalogView extends WatchUi.WatchFace {
         
         // Draw hour markers
         dc.setPenWidth(2);
-        var outerRadius = _radiusMinute + 5;
-        var innerRadius = _radiusMinute;
+        var outerRadius = _radiusMinute;
+        var innerRadius = _radiusMinute - 5;
         
         for (var i = 0; i < 24; i++) {
             // Calculate angle for each hour (in radians)
@@ -131,7 +131,7 @@ class _24hAnalogView extends WatchUi.WatchFace {
             
             // Add numbers for all hours (0 to 23)
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-            var textRadius = outerRadius + 15;
+            var textRadius = innerRadius - 15;
             var textX = _centerX + textRadius * Math.sin(angle);
             var textY = _centerY - textRadius * Math.cos(angle);
             
@@ -157,20 +157,20 @@ class _24hAnalogView extends WatchUi.WatchFace {
         
         // Calculate widths based on hand size setting
         var hourHandWidth = 6;
-        var minuteHandWidth = 3;
+        var minuteHandWidth = 5;
         var secondHandWidth = 2;
         var centerCircleRadius = 4;
         
         if (_handSize.equals(medium)) {
-            hourHandWidth = 9;  // 6 * 1.5
-            minuteHandWidth = 5;  // 3 * 1.5 (rounded)
-            secondHandWidth = 3;  // 2 * 1.5 (rounded)
-            centerCircleRadius = 6;  // 4 * 1.5
+            hourHandWidth *= 1.5;
+            minuteHandWidth *= 1.5;
+            secondHandWidth *= 1.5;
+            centerCircleRadius *= 1.5;
         } else if (_handSize.equals(large)) {
-            hourHandWidth = 15;  // 6 * 2
-            minuteHandWidth = 8;  // 3 * 2
-            secondHandWidth = 4;  // 2 * 2
-            centerCircleRadius = 8;  // 4 * 2
+            hourHandWidth *= 3;
+            minuteHandWidth *= 3;
+            secondHandWidth *= 3;
+            centerCircleRadius *= 3;
         }
         
         // Draw the hour hand

@@ -20,10 +20,7 @@
             Use "Monkey C: Edit Permissions" from the Visual Studio Code command
             palette to update permissions.
         -->
-        <iq:permissions>
-            <iq:uses-permission id="Settings"/>
-            <iq:uses-permission id="SensorHistory"/>
-        </iq:permissions>
+        <iq:permissions/>
         <!--
             Use "Monkey C: Edit Languages" from the Visual Studio Code command
             palette to edit your compatible language list.
@@ -34,70 +31,5 @@
             command palette to edit the included barrels.
         -->
         <iq:barrels/>
-        <iq:settings>
-            <iq:setting propertyKey="@Properties.hourHandColor" title="@Strings.HourHandColorTitle">
-                <iq:settingConfig type="list">
-                    <iq:listEntry value="0xFF0000" display="@Strings.ColorRed"/>
-                    <iq:listEntry value="0x800000" display="@Strings.ColorDarkRed"/>
-                    <iq:listEntry value="0xFFFFFF" display="@Strings.ColorWhite"/>
-                    <iq:listEntry value="0xFFFF00" display="@Strings.ColorYellow"/>
-                    <iq:listEntry value="0x00FF00" display="@Strings.ColorGreen"/>
-                    <iq:listEntry value="0x0000FF" display="@Strings.ColorBlue"/>
-                    <iq:listEntry value="0x800080" display="@Strings.ColorPurple"/>
-                    <iq:listEntry value="0xFFC0CB" display="@Strings.ColorPink"/>
-                </iq:settingConfig>
-            </iq:setting>
-            <iq:setting propertyKey="@Properties.minuteHandColor" title="@Strings.MinuteHandColorTitle">
-                <iq:settingConfig type="list">
-                    <iq:listEntry value="0xFF0000" display="@Strings.ColorRed"/>
-                    <iq:listEntry value="0x800000" display="@Strings.ColorDarkRed"/>
-                    <iq:listEntry value="0xFFFFFF" display="@Strings.ColorWhite"/>
-                    <iq:listEntry value="0xFFFF00" display="@Strings.ColorYellow"/>
-                    <iq:listEntry value="0x00FF00" display="@Strings.ColorGreen"/>
-                    <iq:listEntry value="0x0000FF" display="@Strings.ColorBlue"/>
-                    <iq:listEntry value="0x800080" display="@Strings.ColorPurple"/>
-                    <iq:listEntry value="0xFFC0CB" display="@Strings.ColorPink"/>
-                </iq:settingConfig>
-            </iq:setting>
-            <iq:setting propertyKey="@Properties.secondHandColor" title="@Strings.SecondHandColorTitle">
-                <iq:settingConfig type="list">
-                    <iq:listEntry value="0xFF0000" display="@Strings.ColorRed"/>
-                    <iq:listEntry value="0x800000" display="@Strings.ColorDarkRed"/>
-                    <iq:listEntry value="0xFFFFFF" display="@Strings.ColorWhite"/>
-                    <iq:listEntry value="0xFFFF00" display="@Strings.ColorYellow"/>
-                    <iq:listEntry value="0x00FF00" display="@Strings.ColorGreen"/>
-                    <iq:listEntry value="0x0000FF" display="@Strings.ColorBlue"/>
-                    <iq:listEntry value="0x800080" display="@Strings.ColorPurple"/>
-                    <iq:listEntry value="0xFFC0CB" display="@Strings.ColorPink"/>
-                </iq:settingConfig>
-            </iq:setting>
-            
-            <!-- Heart Rate Settings -->
-            <iq:setting propertyKey="@Properties.showHeartRate" title="@Strings.ShowHeartRateTitle">
-                <iq:settingConfig type="boolean" />
-            </iq:setting>
-            
-            <iq:setting propertyKey="@Properties.heartRateColor" title="@Strings.HeartRateColorTitle">
-                <iq:settingConfig type="list">
-                    <iq:listEntry value="0xFF0000" display="@Strings.ColorRed"/>
-                    <iq:listEntry value="0x800000" display="@Strings.ColorDarkRed"/>
-                    <iq:listEntry value="0xFFFFFF" display="@Strings.ColorWhite"/>
-                    <iq:listEntry value="0xFFFF00" display="@Strings.ColorYellow"/>
-                    <iq:listEntry value="0x00FF00" display="@Strings.ColorGreen"/>
-                    <iq:listEntry value="0x0000FF" display="@Strings.ColorBlue"/>
-                    <iq:listEntry value="0x800080" display="@Strings.ColorPurple"/>
-                    <iq:listEntry value="0xFFC0CB" display="@Strings.ColorPink"/>
-                </iq:settingConfig>
-            </iq:setting>
-            
-            <!-- Hand Size Setting -->
-            <iq:setting propertyKey="@Properties.handSize" title="@Strings.HandSizeTitle">
-                <iq:settingConfig type="list">
-                    <iq:listEntry value="1" display="@Strings.HandSizeSmall"/>
-                    <iq:listEntry value="2" display="@Strings.HandSizeMedium"/>
-                    <iq:listEntry value="3" display="@Strings.HandSizeLarge"/>
-                </iq:settingConfig>
-            </iq:setting>
-        </iq:settings>
     </iq:application>
 </iq:manifest>
